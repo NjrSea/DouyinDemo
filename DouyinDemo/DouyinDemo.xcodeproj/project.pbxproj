@@ -3,30 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		75A3649CA88D26C43BBF2EBD /* Pods_DouyinDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6ED0948758F8AF6BFA9D84E /* Pods_DouyinDemo.framework */; };
+		A02708C826E83DEA0057E652 /* FeedContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02708C726E83DEA0057E652 /* FeedContainerViewController.swift */; };
+		A02708CB26E83F4D0057E652 /* FeedContainerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02708CA26E83F4D0057E652 /* FeedContainerCollectionViewCell.swift */; };
+		A02708CE26E840AE0057E652 /* UIViewController+Douyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02708CD26E840AE0057E652 /* UIViewController+Douyin.swift */; };
+		A02708D026E843110057E652 /* UIColor+Douyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02708CF26E843110057E652 /* UIColor+Douyin.swift */; };
 		A094DD2D26D5CB7300D58187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A094DD2C26D5CB7300D58187 /* AppDelegate.swift */; };
 		A094DD2F26D5CB7300D58187 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A094DD2E26D5CB7300D58187 /* SceneDelegate.swift */; };
-		A094DD3126D5CB7300D58187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A094DD3026D5CB7300D58187 /* ViewController.swift */; };
-		A094DD3426D5CB7300D58187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A094DD3226D5CB7300D58187 /* Main.storyboard */; };
 		A094DD3626D5CB7300D58187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A094DD3526D5CB7300D58187 /* Assets.xcassets */; };
 		A094DD3926D5CB7300D58187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A094DD3726D5CB7300D58187 /* LaunchScreen.storyboard */; };
+		A09DA15126DF06C60052EFCD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA15026DF06C60052EFCD /* TabBarViewController.swift */; };
+		A09DA15826DF0AA40052EFCD /* FeedRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA15726DF0AA40052EFCD /* FeedRootViewController.swift */; };
+		A09DA15B26DF0AB90052EFCD /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA15A26DF0AB90052EFCD /* FriendViewController.swift */; };
+		A09DA15E26DF0ACE0052EFCD /* MessageRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA15D26DF0ACE0052EFCD /* MessageRootViewController.swift */; };
+		A09DA16126DF0AE40052EFCD /* ProfileRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA16026DF0AE40052EFCD /* ProfileRootViewController.swift */; };
+		A09DA16526DF0EE50052EFCD /* CameraRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA16426DF0EE50052EFCD /* CameraRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33B81991993DB0E8605BCF3E /* Pods-DouyinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouyinDemo.release.xcconfig"; path = "Target Support Files/Pods-DouyinDemo/Pods-DouyinDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7AB787C8D8FB7E6F54991DDC /* Pods-DouyinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouyinDemo.debug.xcconfig"; path = "Target Support Files/Pods-DouyinDemo/Pods-DouyinDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A02708C726E83DEA0057E652 /* FeedContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedContainerViewController.swift; sourceTree = "<group>"; };
+		A02708CA26E83F4D0057E652 /* FeedContainerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedContainerCollectionViewCell.swift; sourceTree = "<group>"; };
+		A02708CD26E840AE0057E652 /* UIViewController+Douyin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Douyin.swift"; sourceTree = "<group>"; };
+		A02708CF26E843110057E652 /* UIColor+Douyin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Douyin.swift"; sourceTree = "<group>"; };
 		A094DD2926D5CB7300D58187 /* DouyinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouyinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A094DD2C26D5CB7300D58187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A094DD2E26D5CB7300D58187 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A094DD3026D5CB7300D58187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A094DD3326D5CB7300D58187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A094DD3526D5CB7300D58187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A094DD3826D5CB7300D58187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A094DD3A26D5CB7300D58187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09DA15026DF06C60052EFCD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A09DA15726DF0AA40052EFCD /* FeedRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRootViewController.swift; sourceTree = "<group>"; };
+		A09DA15A26DF0AB90052EFCD /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		A09DA15D26DF0ACE0052EFCD /* MessageRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRootViewController.swift; sourceTree = "<group>"; };
+		A09DA16026DF0AE40052EFCD /* ProfileRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRootViewController.swift; sourceTree = "<group>"; };
+		A09DA16426DF0EE50052EFCD /* CameraRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRootViewController.swift; sourceTree = "<group>"; };
 		E6ED0948758F8AF6BFA9D84E /* Pods_DouyinDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouyinDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,6 +66,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A02708C926E83F1D0057E652 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A02708CA26E83F4D0057E652 /* FeedContainerCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A02708CC26E840950057E652 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A02708CD26E840AE0057E652 /* UIViewController+Douyin.swift */,
+				A02708CF26E843110057E652 /* UIColor+Douyin.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		A094DD2026D5CB7300D58187 = {
 			isa = PBXGroup;
 			children = (
@@ -71,15 +104,110 @@
 		A094DD2B26D5CB7300D58187 /* DouyinDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A02708CC26E840950057E652 /* Utils */,
+				A09DA16226DF0ECD0052EFCD /* Camera */,
+				A09DA15526DF0A6F0052EFCD /* Profile */,
+				A09DA15426DF0A620052EFCD /* Message */,
+				A09DA15326DF09FE0052EFCD /* Friend */,
+				A09DA15226DF09F90052EFCD /* Feed */,
+				A09DA14F26DF06A00052EFCD /* Tab */,
 				A094DD2C26D5CB7300D58187 /* AppDelegate.swift */,
 				A094DD2E26D5CB7300D58187 /* SceneDelegate.swift */,
-				A094DD3026D5CB7300D58187 /* ViewController.swift */,
-				A094DD3226D5CB7300D58187 /* Main.storyboard */,
 				A094DD3526D5CB7300D58187 /* Assets.xcassets */,
 				A094DD3726D5CB7300D58187 /* LaunchScreen.storyboard */,
 				A094DD3A26D5CB7300D58187 /* Info.plist */,
 			);
 			path = DouyinDemo;
+			sourceTree = "<group>";
+		};
+		A09DA14F26DF06A00052EFCD /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				A09DA15026DF06C60052EFCD /* TabBarViewController.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		A09DA15226DF09F90052EFCD /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A02708C926E83F1D0057E652 /* Views */,
+				A09DA15626DF0A860052EFCD /* ViewControllers */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		A09DA15326DF09FE0052EFCD /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				A09DA15926DF0AAB0052EFCD /* ViewControllers */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		A09DA15426DF0A620052EFCD /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				A09DA15C26DF0ABD0052EFCD /* ViewControllers */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		A09DA15526DF0A6F0052EFCD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A09DA15F26DF0AD20052EFCD /* ViewControllers */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A09DA15626DF0A860052EFCD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A09DA15726DF0AA40052EFCD /* FeedRootViewController.swift */,
+				A02708C726E83DEA0057E652 /* FeedContainerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A09DA15926DF0AAB0052EFCD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A09DA15A26DF0AB90052EFCD /* FriendViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A09DA15C26DF0ABD0052EFCD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A09DA15D26DF0ACE0052EFCD /* MessageRootViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A09DA15F26DF0AD20052EFCD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A09DA16026DF0AE40052EFCD /* ProfileRootViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A09DA16226DF0ECD0052EFCD /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A09DA16326DF0ED60052EFCD /* ViewControllers */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		A09DA16326DF0ED60052EFCD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A09DA16426DF0EE50052EFCD /* CameraRootViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		EE851E91B642B43519FB094B /* Pods */ = {
@@ -88,7 +216,6 @@
 				7AB787C8D8FB7E6F54991DDC /* Pods-DouyinDemo.debug.xcconfig */,
 				33B81991993DB0E8605BCF3E /* Pods-DouyinDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,7 +280,6 @@
 			files = (
 				A094DD3926D5CB7300D58187 /* LaunchScreen.storyboard in Resources */,
 				A094DD3626D5CB7300D58187 /* Assets.xcassets in Resources */,
-				A094DD3426D5CB7300D58187 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,23 +332,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A094DD3126D5CB7300D58187 /* ViewController.swift in Sources */,
+				A09DA15B26DF0AB90052EFCD /* FriendViewController.swift in Sources */,
+				A09DA15E26DF0ACE0052EFCD /* MessageRootViewController.swift in Sources */,
+				A09DA15126DF06C60052EFCD /* TabBarViewController.swift in Sources */,
+				A09DA15826DF0AA40052EFCD /* FeedRootViewController.swift in Sources */,
+				A02708CE26E840AE0057E652 /* UIViewController+Douyin.swift in Sources */,
+				A02708C826E83DEA0057E652 /* FeedContainerViewController.swift in Sources */,
 				A094DD2D26D5CB7300D58187 /* AppDelegate.swift in Sources */,
+				A09DA16526DF0EE50052EFCD /* CameraRootViewController.swift in Sources */,
+				A09DA16126DF0AE40052EFCD /* ProfileRootViewController.swift in Sources */,
+				A02708CB26E83F4D0057E652 /* FeedContainerCollectionViewCell.swift in Sources */,
 				A094DD2F26D5CB7300D58187 /* SceneDelegate.swift in Sources */,
+				A02708D026E843110057E652 /* UIColor+Douyin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A094DD3226D5CB7300D58187 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A094DD3326D5CB7300D58187 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A094DD3726D5CB7300D58187 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
