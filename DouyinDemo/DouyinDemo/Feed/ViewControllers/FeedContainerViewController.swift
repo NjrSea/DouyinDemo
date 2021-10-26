@@ -14,6 +14,8 @@ protocol FeedContainerViewControllerDelegate: NSObjectProtocol {
 
     func numberOfViewControllers(in containerViewController: FeedContainerViewController) -> Int
 
+    func feedContainerViewController(controller: FeedContainerViewController , didScroll scrollView: UIScrollView)
+
 }
 
 class FeedContainerViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
@@ -59,7 +61,7 @@ class FeedContainerViewController: UIViewController, UICollectionViewDelegateFlo
     // MARK: UIScrollViewDelegate
 
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-
+        delegate?.feedContainerViewController(controller: self, didScroll: scrollView)
     }
 
     // MARK: UICollectionViewDelegateFlowLayout

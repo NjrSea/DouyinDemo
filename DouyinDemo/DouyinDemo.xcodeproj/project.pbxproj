@@ -22,6 +22,7 @@
 		A09DA15E26DF0ACE0052EFCD /* MessageRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA15D26DF0ACE0052EFCD /* MessageRootViewController.swift */; };
 		A09DA16126DF0AE40052EFCD /* ProfileRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA16026DF0AE40052EFCD /* ProfileRootViewController.swift */; };
 		A09DA16526DF0EE50052EFCD /* CameraRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA16426DF0EE50052EFCD /* CameraRootViewController.swift */; };
+		A0C504E22713C327002ECD98 /* FeedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C504E12713C327002ECD98 /* FeedTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		A09DA15D26DF0ACE0052EFCD /* MessageRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRootViewController.swift; sourceTree = "<group>"; };
 		A09DA16026DF0AE40052EFCD /* ProfileRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRootViewController.swift; sourceTree = "<group>"; };
 		A09DA16426DF0EE50052EFCD /* CameraRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRootViewController.swift; sourceTree = "<group>"; };
+		A0C504E12713C327002ECD98 /* FeedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTabView.swift; sourceTree = "<group>"; };
 		E6ED0948758F8AF6BFA9D84E /* Pods_DouyinDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouyinDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				A02708CA26E83F4D0057E652 /* FeedContainerCollectionViewCell.swift */,
+				A0C504E12713C327002ECD98 /* FeedTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				A02708CB26E83F4D0057E652 /* FeedContainerCollectionViewCell.swift in Sources */,
 				A094DD2F26D5CB7300D58187 /* SceneDelegate.swift in Sources */,
 				A02708D026E843110057E652 /* UIColor+Douyin.swift in Sources */,
+				A0C504E22713C327002ECD98 /* FeedTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
