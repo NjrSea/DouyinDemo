@@ -12,6 +12,8 @@
 		A02708CB26E83F4D0057E652 /* FeedContainerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02708CA26E83F4D0057E652 /* FeedContainerCollectionViewCell.swift */; };
 		A02708CE26E840AE0057E652 /* UIViewController+Douyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02708CD26E840AE0057E652 /* UIViewController+Douyin.swift */; };
 		A02708D026E843110057E652 /* UIColor+Douyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02708CF26E843110057E652 /* UIColor+Douyin.swift */; };
+		A056ACF3273B4B3B00A2B71F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A056ACF2273B4B3B00A2B71F /* FeedViewController.swift */; };
+		A056ACF6273B4C1800A2B71F /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A056ACF5273B4C1800A2B71F /* FeedModel.swift */; };
 		A094DD2D26D5CB7300D58187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A094DD2C26D5CB7300D58187 /* AppDelegate.swift */; };
 		A094DD2F26D5CB7300D58187 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A094DD2E26D5CB7300D58187 /* SceneDelegate.swift */; };
 		A094DD3626D5CB7300D58187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A094DD3526D5CB7300D58187 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 		A09DA15E26DF0ACE0052EFCD /* MessageRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA15D26DF0ACE0052EFCD /* MessageRootViewController.swift */; };
 		A09DA16126DF0AE40052EFCD /* ProfileRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA16026DF0AE40052EFCD /* ProfileRootViewController.swift */; };
 		A09DA16526DF0EE50052EFCD /* CameraRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA16426DF0EE50052EFCD /* CameraRootViewController.swift */; };
+		A0AC4A35272787D50057E786 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AC4A34272787D50057E786 /* FeedTableViewController.swift */; };
+		A0AC4A37272787FC0057E786 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AC4A36272787FC0057E786 /* FeedTableViewCell.swift */; };
 		A0C504E22713C327002ECD98 /* FeedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C504E12713C327002ECD98 /* FeedTabView.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +36,8 @@
 		A02708CA26E83F4D0057E652 /* FeedContainerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedContainerCollectionViewCell.swift; sourceTree = "<group>"; };
 		A02708CD26E840AE0057E652 /* UIViewController+Douyin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Douyin.swift"; sourceTree = "<group>"; };
 		A02708CF26E843110057E652 /* UIColor+Douyin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Douyin.swift"; sourceTree = "<group>"; };
+		A056ACF2273B4B3B00A2B71F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		A056ACF5273B4C1800A2B71F /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
 		A094DD2926D5CB7300D58187 /* DouyinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouyinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A094DD2C26D5CB7300D58187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A094DD2E26D5CB7300D58187 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +50,8 @@
 		A09DA15D26DF0ACE0052EFCD /* MessageRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRootViewController.swift; sourceTree = "<group>"; };
 		A09DA16026DF0AE40052EFCD /* ProfileRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRootViewController.swift; sourceTree = "<group>"; };
 		A09DA16426DF0EE50052EFCD /* CameraRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRootViewController.swift; sourceTree = "<group>"; };
+		A0AC4A34272787D50057E786 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		A0AC4A36272787FC0057E786 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		A0C504E12713C327002ECD98 /* FeedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTabView.swift; sourceTree = "<group>"; };
 		E6ED0948758F8AF6BFA9D84E /* Pods_DouyinDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouyinDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,6 +81,7 @@
 			children = (
 				A02708CA26E83F4D0057E652 /* FeedContainerCollectionViewCell.swift */,
 				A0C504E12713C327002ECD98 /* FeedTabView.swift */,
+				A0AC4A36272787FC0057E786 /* FeedTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -84,6 +93,14 @@
 				A02708CF26E843110057E652 /* UIColor+Douyin.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		A056ACF4273B4C0600A2B71F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A056ACF5273B4C1800A2B71F /* FeedModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		A094DD2026D5CB7300D58187 = {
@@ -134,6 +151,7 @@
 		A09DA15226DF09F90052EFCD /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				A056ACF4273B4C0600A2B71F /* Models */,
 				A02708C926E83F1D0057E652 /* Views */,
 				A09DA15626DF0A860052EFCD /* ViewControllers */,
 			);
@@ -169,6 +187,8 @@
 			children = (
 				A09DA15726DF0AA40052EFCD /* FeedRootViewController.swift */,
 				A02708C726E83DEA0057E652 /* FeedContainerViewController.swift */,
+				A0AC4A34272787D50057E786 /* FeedTableViewController.swift */,
+				A056ACF2273B4B3B00A2B71F /* FeedViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -337,8 +357,12 @@
 			files = (
 				A09DA15B26DF0AB90052EFCD /* FriendViewController.swift in Sources */,
 				A09DA15E26DF0ACE0052EFCD /* MessageRootViewController.swift in Sources */,
+				A056ACF6273B4C1800A2B71F /* FeedModel.swift in Sources */,
 				A09DA15126DF06C60052EFCD /* TabBarViewController.swift in Sources */,
+				A0AC4A35272787D50057E786 /* FeedTableViewController.swift in Sources */,
+				A0AC4A37272787FC0057E786 /* FeedTableViewCell.swift in Sources */,
 				A09DA15826DF0AA40052EFCD /* FeedRootViewController.swift in Sources */,
+				A056ACF3273B4B3B00A2B71F /* FeedViewController.swift in Sources */,
 				A02708CE26E840AE0057E652 /* UIViewController+Douyin.swift in Sources */,
 				A02708C826E83DEA0057E652 /* FeedContainerViewController.swift in Sources */,
 				A094DD2D26D5CB7300D58187 /* AppDelegate.swift in Sources */,

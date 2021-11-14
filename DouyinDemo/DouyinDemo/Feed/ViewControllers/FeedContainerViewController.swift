@@ -49,6 +49,10 @@ class FeedContainerViewController: UIViewController, UICollectionViewDelegateFlo
         }
     }
 
+    override var shouldAutomaticallyForwardAppearanceMethods: Bool {
+        false
+    }
+
     // MARK: Public
 
     public func setPageIndex(index: Int, animated: Bool) {
@@ -68,6 +72,22 @@ class FeedContainerViewController: UIViewController, UICollectionViewDelegateFlo
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return collectionView.frame.size
+    }
+
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        guard let cell = cell as? FeedContainerCollectionViewCell else {
+            return
+        }
+        cell.viewController?.beginAppearanceTransition(true, animated: false)
+        cell.viewController?.endAppearanceTransition()
+    }
+
+    func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        guard let cell = cell as? FeedContainerCollectionViewCell else {
+            return
+        }
+        cell.viewController?.beginAppearanceTransition(false, animated: false)
+        cell.viewController?.endAppearanceTransition()
     }
 
     // MARK: UICollectionViewDataSource

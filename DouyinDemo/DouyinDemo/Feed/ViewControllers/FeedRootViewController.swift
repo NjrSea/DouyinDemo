@@ -42,8 +42,7 @@ class FeedRootViewController: UIViewController, FeedContainerViewControllerDeleg
     // MARK: FeedContainerViewControllerDelegate
 
     func feedContainerViewController(controller: FeedContainerViewController, viewControllerAt indexPath: IndexPath) -> UIViewController {
-        let vc = UIViewController()
-        vc.view.backgroundColor = UIColor.randomColor
+        let vc = FeedTableViewController()
         return vc
     }
 
