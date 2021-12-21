@@ -41,6 +41,36 @@ class FeedViewController: UIViewController {
         PlayerView(player: self.player)
     }()
 
+    private lazy var avatarButton: FeedUserAvatarView = {
+        return FeedUserAvatarView(user: self.feed.author ?? FeedModel.Author(id: "0", name: "未知"))
+    }()
+
+    private lazy var likeButton: FeedLikeButton =  {
+        let button = FeedLikeButton(frame: .zero)
+        return button
+    }()
+
+    private lazy var commentButton: UIButton =  {
+        let button = UIButton()
+        button.setImage(UIImage(named: "icon_home_comment40x40"), for: .normal)
+        return button
+    }()
+
+    private lazy var shareButton: UIButton =  {
+        let button = UIButton()
+        button.setImage(UIImage(named: "iconHomeShareRight40x40"), for: .normal)
+        return button
+    }()
+
+    private lazy var rightButtonsStackView: UIStackView = {
+        let stackView = UIStackView()
+        stackView.alignment = .center
+        stackView.distribution = .equalCentering
+        stackView.axis = .vertical
+        stackView.spacing = 10
+        return stackView
+    }()
+
     init(with feed: FeedModel) {
         self.feed = feed
         super.init(nibName: nil, bundle: nil)
@@ -60,6 +90,20 @@ class FeedViewController: UIViewController {
         playerView.snp.makeConstraints { make in
             make.edges.equalTo(0)
         }
+
+        view.addSubview(rightButtonsStackView)
+
+        rightButtonsStackView.addArrangedSubview(avatarButton)
+        rightButtonsStackView.addArrangedSubview(likeButton)
+        rightButtonsStackView.addArrangedSubview(commentButton)
+        rightButtonsStackView.addArrangedSubview(shareButton)
+
+        rightButtonsStackView.snp.makeConstraints { make in
+            make.width.equalTo(80)
+            make.bottom.equalTo(self.view.snp.bottom).offset(-200)
+            make.trailing.equalTo(self.view.snp.trailing).offset(-10)
+        }
+
 
         // 1 点击屏幕 暂停播放、继续播放
         // 2 player loop
